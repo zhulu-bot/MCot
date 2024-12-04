@@ -4,7 +4,7 @@ This project is a deep learning framework built using Python to solve [specific 
 
 ### **Features**
 
-![image.png](Deep+Learning+Project+cce04e69-7413-47c3-bc08-09f0e9500294/image.png)
+![overviwe.png](assert/overview.png)
 
 - [Feature 1: e.g., Custom model architecture]
 
