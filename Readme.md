@@ -61,7 +61,7 @@ Place the music files in the data folder and run m2i.py.
 
 
 ## **Results**
-![result](assert/result.png)
+![result](assert/visual.png)
 
 ## **Dataser**
 
