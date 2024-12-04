@@ -1,20 +1,10 @@
+# Musical Chain-of-Thoughts for Image Synthesis
+
 ## **Overview**
 
-This project is a deep learning framework built using Python to solve [specific problem/domain]. It utilizes modern deep learning libraries such as PyTorch/TensorFlow/Keras to design, train, and evaluate models for [task, e.g., image classification, NLP, etc.].
+Music-driven image synthesis, which aims to generate images aligned with the content and emotions of music, has garnered widespread attention today. However, current GAN-based methods produce blurry and tedious images, while the large-scale image synthesis models like Stable Diffusion, which can generate high-quality images, cannot process music inputs. In this work, we introduce a training-free method, namely Musical Chain-of-Thoughts (MCoT), which employs LLM as a musical image planner through its powerful chain-of-thought reasoning abilities, enhancing the large-scale image synthesis model in producing music-aligned images. Our method comprises three key components: 1) Music information extraction transforms original music into text by explicitly identifying music elements such as mode, tonality, genre, and instrument; 2) Dynamic prompt learning involves selecting the most helpful exemplars to construct prompts, enabling large language model (LLM) to produce musical captions that are then fed into Stable Diffusion to generate images; 3) Multi-round optimizer iteratively refines the musical caption to improve the generated image quality. We conduct extensive experiments on the popular dataset EMOPIA and the self-constructed dataset AnyMusic. The results demonstrate that our method can transfer a given music into a high-quality image aligning  with music content and emotions, based on the large-scale image synthesis model. The ablation studies highlight the effects of each component. 
 
-### **Features**
-
-![overviwe.png](assert/overview.png)
-
-- [Feature 1: e.g., Custom model architecture]
-
-- [Feature 2: e.g., Pre-trained model support]
-
-- [Feature 3: e.g., Multi-GPU support]
-
-- [Feature 4: e.g., Automated logging and visualization]
-
----
+![overviwe](assert/overview.png)
 
 ## **Project Structure**
 
@@ -43,7 +33,6 @@ project/
 └── main.py                   # Main entry point
 ```
 
----
 
 ## **Installation**
 
@@ -61,96 +50,24 @@ project/
     ```
 
 1. Configure project settings:
-Modify `config.yaml` to set up paths, hyperparameters, and other settings.
+Modify the config.yaml file to configure the URL and API key for GPT-4.
 
 ---
 
 ## **Usage**
 
-### **1. Data Preparation**
+Place the music files in the data folder and run m2i.py.
 
-Place your raw data files in the `data/raw/` directory. Use the provided preprocessing script to prepare the dataset:
 
-```Shell
-python scripts/preprocess_data.py
-```
-
-### **2. Model Training**
-
-Run the training script with your desired configuration:
-
-```Shell
-python scripts/train.py --config config.yaml
-```
-
-### **3. Evaluation**
-
-Evaluate the trained model on a test dataset:
-
-```Shell
-python scripts/evaluate.py --model models/saved_model.pth
-```
-
----
-
-## **Configuration**
-
-All hyperparameters and settings are defined in `config.yaml`. Example:
-
-```YAML
-model:
-  name: custom_model
-  input_size: 224
-  output_size: 10
-  pretrained: True
-
-training:
-  batch_size: 32
-  epochs: 50
-  learning_rate: 0.001
-  optimizer: adam
-  scheduler: step_lr
-```
-
----
 
 ## **Results**
+![result](assert/result.png)
 
-Training accuracy: XX%
-Validation accuracy: XX%
-Test accuracy: XX%
+## **Dataser**
 
-### **Visualization**
-
-Model training logs and metrics can be visualized using TensorBoard:
-
-```Shell
-tensorboard --logdir=logs/
-```
-
----
-
-## **Contributing**
-
-Contributions are welcome! Please fork this repository and submit a pull request for review.
-
----
+Anymusic contains 10,000 well-known songs from around the world, curated through GPT recommendations and manual collection. It includes a variety of genres, emotions, and content. Currently, 20 sample entries are open-sourced for reference. The dataset can be accessed at xxbaidu.com. The full dataset will be released after the paper is published.
 
 ## **License**
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-## **Acknowledgments**
-
-- [Library/Framework 1: e.g., PyTorch](https://pytorch.org/)
-
-- [Library/Framework 2: e.g., TensorFlow](https://tensorflow.org/)
-
-- [Dataset: e.g., ImageNet](https://www.image-net.org/)
-
----
-
-可以根据项目实际情况调整内容，例如替换特定的框架、工具、模型架构等。
 
