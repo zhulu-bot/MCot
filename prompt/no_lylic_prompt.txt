@@ -1,0 +1,47 @@
+As a recognized music expert, your task is to analyze the emotional and musical descriptions of a song and perform the following steps:
+
+Analyze the Descriptions: Carefully examine the provided descriptions to discern the overall theme of the song, such as love, peace, or sorrow.
+Imagine a Scene: Visualize a specific scene that aligns with the emotional and thematic content of the song. For instance, if the song evokes a feeling of loneliness, you might imagine a solitary figure on a quiet beach at dusk.
+Scene and Emotion Synthesis: Combine the selected elements with the overarching emotional tone to decide on the composition, colors, and tones for the scene. This includes choosing a color palette that reflects the song's emotional quadrant: Q1 (High Valence, High Arousal), Q2 (Low Valence, High Arousal), Q3 (Low Valence, Low Arousal), Q4 (High Valence, Low Arousal).
+In emotional visual expression, composition and color can effectively convey different emotional characteristics. Here are the composition and color suggestions for the four emotional quadrants:
+
+Q1 (High Valence, High Arousal):
+
+Composition: Highly dynamic, full of vitality and movement, with more diagonal lines, curves, and dynamic elements, asymmetrical composition, evenly distributed elements, and a prominent visual center.
+Color: Bright, high-saturation colors; main tones such as red, yellow, and orange; strong contrast and lively color combinations.
+Q2 (Low Valence, High Arousal):
+
+Composition: Dynamic but with a sense of chaos and tension; more diagonal lines, irregular shapes, and sharp angles; complex composition with dense visual elements.
+Color: Strong and dark colors, high saturation; main tones such as deep red, deep purple, and black; high contrast with a sense of conflict.
+Q3 (Low Valence, Low Arousal):
+
+Composition: Static, peaceful, and steady; more horizontal and vertical lines, symmetrical composition; fewer elements, minimalist, with plenty of blank space.
+Color: Soft and low-saturation colors; main tones such as gray, blue, and brown; soft color combinations with natural transitions.
+Q4 (High Valence, Low Arousal):
+
+Composition: Static but joyful, harmonious and relaxing; more circles and curves, symmetrical and balanced composition; moderate elements, soft and regular.
+Color: Bright but soft colors, medium saturation; main tones such as light blue, green, and pink; harmonious color combinations with smooth transitions.
+
+Enclose the final scene description with double brackets [[]], the tokens need less 77,and will be define as diffusion prompt
+
+There is examples:
+
+# Input:
+
+caption: The low quality recording features a suspenseful piano melody played over mellow synth pad chords. It sounds intense, mystical, but also passionate, as something you would hear in movies.
+emotion: Q1
+
+# output
+For the described song, its emotional classification is Q1 (high pleasure, high activation), and the scene can be full of vitality and emotion. Here is my method of constructing visual expression based on the description and emotional content of the song:
+Theme analysis
+This song combines intensity and passion, implying a scene that is both vibrant and emotional. The use of "suspense" and "mystery" indicates a profound and potentially extraordinary connection, while "passion" indicates a strong emotional presence.
+Imagine the scene
+Imagine a nighttime urban landscape, not just any city, but a seemingly futuristic or extraordinary city. The skyline is composed of tall, streamlined buildings, some of which emit light at the top and the background is a starry sky. From a high vantage point, it gives a sense of grandeur and sweeping.
+Integration of Scene and Emotion
+In the composition, the urban landscape will be full of vitality. The colors will be bright and highly saturated, with red, yellow, and orange as the main colors, reflecting high activation and pleasure. These colors will create a sharp contrast with the dark blue and purple of the night sky and buildings, enhancing the vitality and depth of the scene.
+
+conclusion:
+[[Imagine a futuristic cityscape at night, viewed from a high vantage point. The scene features sleek, tall buildings under a starlit sky, highlighted by pulsating orbs of light. Dynamic, flowing lines of bright red, yellow, and orange light cut asymmetrically through the city, contrasting against dark blues and purples of the buildings. This composition is vibrant, energetic, and full of motion.]]
+
+let us think step by step:
+888999

@@ -1,0 +1,42 @@
+you will be a music expert, I will give you a set of lyrics along with the emotional and musical description of a song. You will need to analyze the lyrics and descriptions in detail, determine the overall theme of the song, such as love or peace, and then imagine a scene. Afterwards, analyze the elements that appear in the music, such as the moon, and choose important ones to enhance the evening scene. Then analyze the nationality of the lyrics and modify the description to align with the national culture, and finally combine the scene with emotions to determine the composition, colors, and tones of the basic information. Let's think step by step:
+
+Example:
+
+Input:
+
+Lyrics: 天青色等煙雨 而我在等妳
+炊煙裊裊昇起 隔江千萬里
+
+Caption: A female vocalist sings this melancholic melody in a foreign language. The tempo is slow with a soft piano accompaniment and no other instrumentation. The song is soft, mellow, poignant, emotional, sentimental, melancholic, and reflective. This song is a sad classic Pop.
+
+Emotion: Q3 Low Valence, Low Arousal
+
+Output:
+
+The theme of this song clearly tends to express a deep longing and unfulfilled love, and from the lyrics and musical description, one can feel a tender and melancholic mood. Based on your description, we can build a specific scene and visual expression:
+
+Lyrics and Emotional Analysis
+The lyrics "天青色等煙雨 而我在等妳, 炊煙裊裊昇起 隔江千萬里" depict a late autumn or early spring scene in a Jiangnan water town, filled with poetic and waiting emotions. The repeated use of "waiting" in the lyrics enhances this deep sense of anticipation, aligning with the emotional characteristics of the Q3 region (low valence, low arousal): introverted, longing, and calm with a hint of sadness.
+
+Element Analysis and Scene Design
+Element Choice: Choose "moon" and "oiled paper umbrella" as visual focal points. The moon represents solitude and longing for the distant, while the oiled paper umbrella adds a traditional Eastern aesthetic.
+Scene Design: When rendering the image, a softer watercolor or ink painting style can be used to suit the song's emotions and style. The colors are primarily blue-gray, reflecting the "azure sky" and the hazy mist of the rain.
+Combining National Culture
+This song appears to be sung in Chinese, closely linked with Chinese culture. When modifying and adjusting the description, you can add descriptions and cultural elements of Chinese water towns, such as ancient bridges and small boats, which are typical symbols of the Jiangnan region.
+Emotions Combined with Visuals
+The entire scene should reflect the song's main emotion—a gentle melancholy and Q3((低情感价值，低唤醒)). For color choices, colder tones like deep blue and gray can be used to enhance this feeling, making the image more captivating.
+
+Final Result:
+Imagine a poetic scene of a Jiangnan water town on a hazy rainy noon. A woman in a deep blue Hanfu with tassels stands on an ancient stone bridge, holding a white oiled paper umbrella, her gaze distant. In the background, light smoke rises from a small village across the river, blending with the gray-blue sky and pale blue distant mountains. The main colors in the scene are deep blue and gray, contrasting with the light gray-blue of the sky, creating a peaceful and melancholic atmosphere. The entire picture layout focuses on depth, using mist and drizzle to increase the sense of spatial hierarchy.
+
+Next:
+
+歌词：Mama, ooh, didn't mean to make you cry
+If I'm not back again this time tomorrow
+
+描述：The low quality recording features a pop song that contains a passionate female vocal, alongside wide harmonizing background vocals, singing over punchy kick and snare hits, shimmering hi hats, energetic crash cymbals, wide electric guitar melody and groovy bass guitar. It sounds energetic and addictive.
+情感：Q2 (Low valence, high arousal) 强烈且暗沉的色彩，饱和度高
+主色调如深红色、深紫色、黑色等
+对比度高，带有冲突感
+
+
