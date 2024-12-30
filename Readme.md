@@ -4,7 +4,6 @@
 
 Music-driven image synthesis, which aims to generate images aligned with the content and emotions of music, has garnered widespread attention today. However, current GAN-based methods produce blurry and tedious images, while the large-scale image synthesis models like Stable Diffusion, which can generate high-quality images, cannot process music inputs. In this work, we introduce a training-free method, namely Musical Chain-of-Thoughts (MCoT), which employs LLM as a musical image planner through its powerful chain-of-thought reasoning abilities, enhancing the large-scale image synthesis model in producing music-aligned images. Our method comprises three key components: 1) Music information extraction transforms original music into text by explicitly identifying music elements such as mode, tonality, genre, and instrument; 2) Dynamic prompt learning involves selecting the most helpful exemplars to construct prompts, enabling large language model (LLM) to produce musical captions that are then fed into Stable Diffusion to generate images; 3) Multi-round optimizer iteratively refines the musical caption to improve the generated image quality. We conduct extensive experiments on the popular dataset EMOPIA and the self-constructed dataset AnyMusic. The results demonstrate that our method can transfer a given music into a high-quality image aligning  with music content and emotions, based on the large-scale image synthesis model. The ablation studies highlight the effects of each component. 
 
-![overviwe](assert/overview.png)
 
 ## **Project Structure**
 
